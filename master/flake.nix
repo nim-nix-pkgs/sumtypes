@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sumtypes-master.flake = false;
+  inputs.src-sumtypes-master.ref   = "refs/heads/master";
   inputs.src-sumtypes-master.owner = "beef331";
-  inputs.src-sumtypes-master.ref   = "master";
   inputs.src-sumtypes-master.repo  = "sumtypes";
   inputs.src-sumtypes-master.type  = "github";
   
